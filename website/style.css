@@ -1,0 +1,41 @@
+.center-container {
+    width: 750px;
+    height: 1000px;
+    margin: auto;
+    outline: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-family : 'Rubik Bubbles';
+    background-color: rgb(32, 34, 153);
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
+
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+#bagel {
+    border: 250px solid rgb(0, 0, 0);
+    border-radius: 300px;
+    height:100px;
+    width:100px;
+    margin-bottom: 50px;
+}
+
+.floating {
+    animation: floating 3s ease-in-out infinite
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
