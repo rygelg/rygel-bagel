@@ -60,6 +60,16 @@ body {
             2.5px 2.5px at 110px 80px, 
             white, 
             rgba(255, 255, 255, 0)
+          ),
+          radial-gradient(
+            2.5px 2.5px at 300px 160px, 
+            white, 
+            rgba(255, 255, 255, 0)
+          ),
+          radial-gradient(
+            2.5px 2.5px at 0px 460px, 
+            white, 
+            rgba(255, 255, 255, 0)
           );
     }
 
@@ -77,7 +87,7 @@ body {
                 rgba(255, 255, 255, 0)
               ),
               radial-gradient(
-                1.5px 0.5px at 125px 20px, 
+                1.5px 0.5px at 25px 20px, 
                 white, 
                 rgba(255, 255, 255, 0)
               ),
